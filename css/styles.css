@@ -1,0 +1,116 @@
+body {
+    background: url(https://kirchhoff-moto.de/wp-content/uploads/2019/03/eau-rouge-night-300pdi.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif;
+    width: 25%;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2 {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif;
+    width: 15%;
+    margin: 100px auto;
+    margin-top: 125px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+section {
+    color: blanchedalmond;
+    font-family: 'PT Serif', serif;
+    flex: 3;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black
+}
+
+aside {
+    color: blanchedalmond;
+    font-family: 'PT Serif', serif;
+    flex: 2;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+button, a {
+    display: inline-block;
+    background-color: orangered;
+    color: #fff;
+    flex: 3;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 25px;
+    border-bottom: 5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn-danger {
+        color: white;
+        background-color: orangered;
+}
+
+button:hover, a:hover {
+    color: white;
+    background-color: red;
+}
+
+button:active, a:active {
+    border-bottom: none;
+    top: 5px;
+    position: relative;
+    box-shadow: inset 1px 1px 2px black, 2px 2px 2px black;
+}
+
+button:visited, a:visited {
+    color: black
+}
+
+.card {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.row {
+    margin-top: 150px;
+}
+
+#contenedor {
+    display: flex;
+}
